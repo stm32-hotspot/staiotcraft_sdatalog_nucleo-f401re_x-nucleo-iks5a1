@@ -1,0 +1,112 @@
+/**
+  ******************************************************************************
+  * @file    PnPL_Messages.txt
+  * @author  SRA
+  * @brief   Helper code snippets for PnPL features integration
+  ******************************************************************************
+  * @attention
+  *
+  * Copyright (c) 2022 STMicroelectronics.
+  * All rights reserved.
+  *
+  * This software is licensed under terms that can be found in the LICENSE file in
+  * the root directory of this software component.
+  * If no LICENSE file comes with this software, it is provided AS-IS.
+  *
+  *
+  ******************************************************************************
+  */
+
+/**
+  ******************************************************************************
+  * This file has been auto generated from the following Device Template Model:
+  * dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG;1
+  *
+  * Created by: DTDL2PnPL_cGen version 3.1.0-alpha.2
+  *
+  * WARNING! All changes made to this file will be lost if this is regenerated
+  ******************************************************************************
+  */
+
+/* PnPL Message List -------------------------------------------------------- */
+
+/* PnPL GET Messages List --------------------------------------------------- */
+{"get_status": "all"}
+{"get_status": "ism6hg256x_acc"}
+{"get_status": "ism6hg256x_gyro"}
+{"get_status": "ism6hg256x_mlc"}
+{"get_status": "log_controller"}
+{"get_status": "acquisition_information"}
+{"get_status": "device_information"}
+/* -------------------------------------------------------------------------- */
+
+/* PnPL SET Messages List --------------------------------------------------- */
+{"ism6hg256x_acc": {"enable": boolean_value}}
+{"ism6hg256x_acc": {"odr": <enum_id>}}
+/* --> ism6hg256x_acc odr Enum values Map {<enum_id>:<enum_value>} */
+//// {0:1.875}
+//// {1:7.5}
+//// {2:15}
+//// {3:30}
+//// {4:60}
+//// {5:120}
+//// {6:240}
+//// {7:480}
+//// {8:960}
+//// {9:1920}
+//// {10:3840}
+//// {11:7680}
+{"ism6hg256x_acc": {"fs": <enum_id>}}
+/* --> ism6hg256x_acc fs Enum values Map {<enum_id>:<enum_value>} */
+//// {0:2}
+//// {1:4}
+//// {2:8}
+//// {3:16}
+{"ism6hg256x_acc": {"annotation": "string_value"}}
+{"ism6hg256x_gyro": {"enable": boolean_value}}
+{"ism6hg256x_gyro": {"odr": <enum_id>}}
+/* --> ism6hg256x_gyro odr Enum values Map {<enum_id>:<enum_value>} */
+//// {0:7.5}
+//// {1:15}
+//// {2:30}
+//// {3:60}
+//// {4:120}
+//// {5:240}
+//// {6:480}
+//// {7:960}
+//// {8:1920}
+//// {9:3840}
+//// {10:7680}
+{"ism6hg256x_gyro": {"fs": <enum_id>}}
+/* --> ism6hg256x_gyro fs Enum values Map {<enum_id>:<enum_value>} */
+//// {1:250}
+//// {2:500}
+//// {3:1000}
+//// {4:2000}
+//// {5:4000}
+{"ism6hg256x_gyro": {"annotation": "string_value"}}
+{"ism6hg256x_mlc": {"enable": boolean_value}}
+{"acquisition_information": {"acquisition_name": "string_value"}}
+{"acquisition_information": {"acquisition_description": "string_value"}}
+{"device_information": {"device_alias": "string_value"}}
+/* -------------------------------------------------------------------------- */
+
+/* PnPL COMMAND Messages List ----------------------------------------------- */
+{"ism6hg256x_mlc*load_model": {"arguments": {"filename": "string_value", "size": integer_value, "content": "string_value"}}}
+{"log_controller*save_configuration": ""}
+{"log_controller*start_log": {"interface": <enum_id>}}
+/* --> log_controller interface Enum values Map {<enum_id>:<enum_value>} */
+//// {0:SD Card}
+//// {1:USB}
+{"log_controller*stop_log": ""}
+{"log_controller*set_time": {"datetime": "string_value"}}
+{"log_controller*switch_bank": ""}
+{"log_controller*set_dfu_mode": ""}
+{"log_controller*enable_all": {"status": boolean_value}}
+/* -------------------------------------------------------------------------- */
+
+/* PnPL TELEMETRY Messages List [FW --> Host] ------------------------------- */
+{"ism6hg256x_mlc": {"label_id": integer_value}}
+/* -------------------------------------------------------------------------- */
+
+/* -------------------------------------------------------------------------- */

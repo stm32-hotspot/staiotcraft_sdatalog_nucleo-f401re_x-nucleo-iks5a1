@@ -1,0 +1,61 @@
+{
+    "version": 3,
+    "configurePresets": [
+        {
+            "name": "default",
+            "hidden": true,
+            "generator": "Ninja",
+            "binaryDir": "${sourceDir}/build/${presetName}",
+		    "toolchainFile": "${sourceDir}/cmake/gcc-arm-none-eabi.cmake",
+            "cacheVariables": {
+            }
+        },
+        {
+            "name": "Debug",
+            "inherits": "default",
+            "cacheVariables": {
+                "CMAKE_BUILD_TYPE": "Debug"
+            }
+        },
+        {
+            "name": "ReleaseSpeed",
+            "inherits": "default",
+            "cacheVariables": {
+                "CMAKE_BUILD_TYPE": "ReleaseSpeed",
+                "CMAKE_C_FLAGS_RELEASESPEED": "-O3 -g0 -flto",
+                "CMAKE_CXX_FLAGS_RELEASESPEED": "-O3 -g0 -flto",
+                "CMAKE_EXE_LINKER_FLAGS_RELEASESPEED": "-flto"
+            }
+        },
+        {
+            "name": "ReleaseSize",
+            "inherits": "default",
+            "cacheVariables": {
+                "CMAKE_BUILD_TYPE": "ReleaseSize",
+                "CMAKE_C_FLAGS_RELEASESIZE": "-Os -g0 -flto",
+                "CMAKE_CXX_FLAGS_RELEASESIZE": "-Os -g0 -flto",
+                "CMAKE_EXE_LINKER_FLAGS_RELEASESIZE": "-flto"
+            }
+        }
+    ],
+    "buildPresets": [
+        {
+            "name": "Debug",
+            "configurePreset": "Debug"
+        },
+        {
+            "name": "ReleaseSpeed",
+            "configurePreset": "ReleaseSpeed",
+            "targets": [
+                "all"
+            ]
+        },
+        {
+            "name": "ReleaseSize",
+            "configurePreset": "ReleaseSize",
+            "targets": [
+                "all"
+            ]
+        }
+    ]
+}

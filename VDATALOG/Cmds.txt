@@ -1,0 +1,54 @@
+-----------   Box.Pro
+
+{"lsm6dsv16x_mlc":{"enable":true}}
+{"lsm6dsv16x_mlc":{"enable":false}}
+
+{"lsm6dsv16x_acc":{"enable":true}}
+{"lsm6dsv16x_gyro":{"enable":true}}
+
+{"lsm6dsv16x_acc":{"enable":false}}
+{"lsm6dsv16x_gyro":{"enable":false}}
+
+{"log_controller*start_log":{"interface":0}}	
+
+{"get_status":"lsm6dsv16x_acc"}
+{"get_status":"lsm6dsv16x_gyro"}
+{"get_status":"lsm6dsv16x_mlc"}
+
+/* to set acc ODR */
+{"lsm6dsv16x_acc":{"odr":9}}
+{"lsm6dsv16x_gyro":{"odr":2}}
+
+{"lsm6dsv16x_acc":{"fs":2}}
+{"lsm6dsv16x_gyro":{"fs":2}}
+
+-----------  iks5a1
+
+{"ism6hg256x_acc":{"enable":true}}
+{"ism6hg256x_gyro":{"enable":true}}
+
+{"ism6hg256x_acc":{"odr":9}}
+{"ism6hg256x_gyro":{"odr":2}}
+
+{"ism6hg256x_acc":{"fs":2}}
+{"ism6hg256x_gyro":{"fs":2}}
+
+{"ism6hg256x_acc":{"enable":true}}
+{"ism6hg256x_gyro":{"enable":true}}
+
+{"ism6hg256x_acc": {"odr_triggered":true}}
+{"ism6hg256x_gyro": {"odr_triggered":true}}
+{"ism6hg256x_acc": {"odr_t": 6}}
+
+
+
+/* cmd sequence to start MLC inference from dft MLC file in .h */
+{"lsm6dsv16x_acc":{"enable":true}}  optional to get acc Raw data processed by MLC
+{"lsm6dsv16x_mlc":{"enable":true}}
+{"lsm6dsv16x_mlc*load_model":{"arguments":{"filename": "asset_tracking_lsm6dsv16x_mlc.ucf","size":520,"content":"100011000180040005001740021108E80900093C021108F10901022108000900021108EA096E09030978090309000900090A021108F2090F021108FA095C0903097E0903098A09030231085C093F09000900090C09000900090009900900090009030990090009FC0900097C091F09000231087E090009000900090009000900090009000900090009000100018017400231088A09A009230907098209E9093B090009A00980091A093409C209F3093B094809C109A00920095409C2097D09A3096809C009200921094809E209440935098809C20939093C09C009A1095D093809C809E20180170004000510020101005E0201800D016015450201001004110015001703"}}}
+{"lsm6dsv16x_gyro":{"enable":true}}
+{"lsm6dsv16x_gyro":{"odr":1}}
+{"get_status":"lsm6dsv16x_gyro"}
+{"log_controller*start_log":{"interface":0}}	
+  
+  

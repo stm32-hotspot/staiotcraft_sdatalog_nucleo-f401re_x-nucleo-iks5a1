@@ -1,0 +1,50 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug STAIOTCRAFT_SDATALOG_NUCLEO-F401RE_X-NUCLEO-IKS5A1",
+            "cwd": "${workspaceFolder}",
+            "executable": "${workspaceFolder}/build/Debug/STAIOTCRAFT_SDATALOG_NUCLEO-F401RE_X-NUCLEO-IKS5A1.elf",
+            "request": "launch",
+            "type": "cortex-debug",
+            "servertype": "stlink",
+            "serverpath": "C:/ST/STM32CubeCLT_1.17.0/STLink-gdb-server/bin/ST-LINK_gdbserver.exe",
+            "stm32cubeprogrammer": "C:/ST/STM32CubeCLT_1.17.0/STM32CubeProgrammer/bin",
+            "armToolchainPath": "C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin",
+            "device": "STM32F401RE",
+            "interface": "swd",
+            "runToEntryPoint": "main",
+            "svdFile": "C:/ST/STM32CubeCLT_1.17.0/STMicroelectronics_CMSIS_SVD/STM32F401.svd"
+        },
+        {
+            "name": "ReleaseSize STAIOTCRAFT_SDATALOG_NUCLEO-F401RE_X-NUCLEO-IKS5A1",
+            "cwd": "${workspaceFolder}",
+            "executable": "${workspaceFolder}/build/ReleaseSize/STAIOTCRAFT_SDATALOG_NUCLEO-F401RE_X-NUCLEO-IKS5A1.elf",
+            "request": "launch",
+            "type": "cortex-debug",
+            "servertype": "stlink",
+            "serverpath": "C:/ST/STM32CubeCLT_1.17.0/STLink-gdb-server/bin/ST-LINK_gdbserver.exe",
+            "stm32cubeprogrammer": "C:/ST/STM32CubeCLT_1.17.0/STM32CubeProgrammer/bin",
+            "armToolchainPath": "C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin",
+            "device": "STM32F401RE",
+            "interface": "swd",
+            "runToEntryPoint": "main",
+            "svdFile": "C:/ST/STM32CubeCLT_1.17.0/STMicroelectronics_CMSIS_SVD/STM32F401.svd"
+        },
+        {
+            "name": "ReleaseSpeed STAIOTCRAFT_SDATALOG_NUCLEO-F401RE_X-NUCLEO-IKS5A1",
+            "cwd": "${workspaceFolder}",
+            "executable": "${workspaceFolder}/build/ReleaseSpeed/STAIOTCRAFT_SDATALOG_NUCLEO-F401RE_X-NUCLEO-IKS5A1.elf",
+            "request": "launch",
+            "type": "cortex-debug",
+            "servertype": "stlink",
+            "serverpath": "C:/ST/STM32CubeCLT_1.17.0/STLink-gdb-server/bin/ST-LINK_gdbserver.exe",
+            "stm32cubeprogrammer": "C:/ST/STM32CubeCLT_1.17.0/STM32CubeProgrammer/bin",
+            "armToolchainPath": "C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin",
+            "device": "STM32F401RE",
+            "interface": "swd",
+            "runToEntryPoint": "main",
+            "svdFile": "C:/ST/STM32CubeCLT_1.17.0/STMicroelectronics_CMSIS_SVD/STM32F401.svd"
+        }
+    ]
+}
