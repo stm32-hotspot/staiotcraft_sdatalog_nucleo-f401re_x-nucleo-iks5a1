@@ -1,4 +1,4 @@
-# STEVAL-MKBOXPRO Serial Datalog Firmware
+#  NUCLEO-F401RE and X-NUCLEO-IKS5A1 Serial Datalog Firmware
 
 ## Introduction
 
