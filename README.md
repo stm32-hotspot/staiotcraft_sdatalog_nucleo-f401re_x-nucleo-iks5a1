@@ -106,7 +106,7 @@ The full list of companion firmware compatible with the [ST AIoT Craft](https://
 
 - Datalogging firmware over USB/serial connectivity
   - [STAIOTCRAFT_SDATALOG_STEVAL-MKBOXPRO](https://github.com/stm32-hotspot/staiotcraft_sdatalog_steval-mkboxpro)
-  - [STAIOTCRAFT_SDATALOG_RUST_STEVAL-MKBOXPRO] (https://www.st.com/content/st_com/en/products/embedded-software/evaluation-tool-software/stsw-sdatalog-r.html) available as a software package from st.com
+  - [STAIOTCRAFT_SDATALOG_RUST_STEVAL-MKBOXPRO](https://www.st.com/content/st_com/en/products/embedded-software/evaluation-tool-software/stsw-sdatalog-r.html) available as a software package from st.com
   - [STAIOTCRAFT_SDATALOG_NUCLEO-F401RE_X-NUCLEO-IKS5A1](https://github.com/stm32-hotspot/staiotcraft_sdatalog_nucleo-f401re_x-nucleo-iks5a1)
   - [STAIOTCRAFT_SDATALOG_NUCLEO-U575ZI-Q_X-NUCLEO-IKS5A1](https://github.com/stm32-hotspot/staiotcraft_sdatalog_nucleo-u575zi-q_x-nucleo-iks5a1)
   - [STAIOTCRAFT_SDATALOG_NUCLEO-H7A3ZI-Q_X-NUCLEO-IKS5A1](https://github.com/stm32-hotspot/staiotcraft_sdatalog_nucleo-h7a3zi-q_x-nucleo-iks5a1)
