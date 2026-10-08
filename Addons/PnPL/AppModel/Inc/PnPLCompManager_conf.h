@@ -40,7 +40,7 @@ extern "C" {
 #include "math.h"
 
 #define BOARD_ID      0x7F
-#define FW_ID         0x01
+#define FW_ID         0x11
 #define PROTOCOL_ID   0x01
 
 #ifdef __cplusplus

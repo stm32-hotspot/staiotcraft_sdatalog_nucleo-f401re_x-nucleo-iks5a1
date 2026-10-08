@@ -1,61 +1,61 @@
 [
   {
-    "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG;1",
+    "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG;2",
     "@type": "Interface",
     "contents": [
       {
-        "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:ism6hg256x_acc;1",
+        "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:ism6hg256x_acc;2",
         "@type": "Component",
         "displayName": {
           "en": "ISM6HG256X_ACC"
         },
         "name": "ism6hg256x_acc",
-        "schema": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc;1"
+        "schema": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc;2"
       },
       {
-        "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:ism6hg256x_gyro;1",
+        "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:ism6hg256x_gyro;2",
         "@type": "Component",
         "displayName": {
           "en": "ISM6HG256X_GYRO"
         },
         "name": "ism6hg256x_gyro",
-        "schema": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro;1"
+        "schema": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro;2"
       },
       {
-        "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:ism6hg256x_mlc;1",
+        "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:ism6hg256x_mlc;2",
         "@type": "Component",
         "displayName": {
           "en": "ISM6HG256X_MLC"
         },
         "name": "ism6hg256x_mlc",
-        "schema": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_mlc;1"
+        "schema": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_mlc;2"
       },
       {
-        "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:log_controller;1",
+        "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:log_controller;2",
         "@type": "Component",
         "displayName": {
           "en": "Log Controller"
         },
         "name": "log_controller",
-        "schema": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:applications:log_controller;1"
+        "schema": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:applications:log_controller;2"
       },
       {
-        "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:acquisition_information;1",
+        "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:acquisition_information;2",
         "@type": "Component",
         "displayName": {
           "en": "Acquisition Information"
         },
         "name": "acquisition_information",
-        "schema": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:services:acquisition_information;1"
+        "schema": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:services:acquisition_information;2"
       },
       {
-        "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:device_information;1",
+        "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:device_information;2",
         "@type": "Component",
         "displayName": {
           "en": "Device Information"
         },
         "name": "device_information",
-        "schema": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:services:device_information;1"
+        "schema": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:services:device_information;2"
       }
     ],
     "displayName": {
@@ -71,11 +71,11 @@
       "dtmi:iotcentral:context;2",
       "dtmi:dtdl:context;2"
     ],
-    "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc;1",
+    "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc;2",
     "@type": "Interface",
     "contents": [
       {
-        "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:enable;1",
+        "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:enable;2",
         "@type": [
           "Property",
           "BooleanValue"
@@ -88,7 +88,7 @@
         "writable": true
       },
       {
-        "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:data_type;1",
+        "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:data_type;2",
         "@type": [
           "Property",
           "StringValue"
@@ -101,7 +101,7 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:dimensions;1",
+        "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:dimensions;2",
         "@type": [
           "Property",
           "NumberValue"
@@ -114,7 +114,7 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:unit;1",
+        "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:unit;2",
         "@type": [
           "Property",
           "StringValue"
@@ -127,7 +127,7 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:short_unit;1",
+        "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:short_unit;2",
         "@type": [
           "Property",
           "StringValue"
@@ -140,7 +140,7 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:sensor_category;1",
+        "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:sensor_category;2",
         "@type": [
           "Property",
           "NumberValue"
@@ -156,20 +156,7 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:odr_triggered;1",
-        "@type": [
-          "Property",
-          "BooleanValue"
-        ],
-        "displayName": {
-          "en": "ODR Triggered"
-        },
-        "name": "odr_triggered",
-        "schema": "boolean",
-        "writable": true
-      },
-      {
-        "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:odr;1",
+        "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:odr;2",
         "@type": [
           "Property",
           "Initialized"
@@ -179,14 +166,14 @@
         },
         "name": "odr",
         "schema": {
-          "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:odr:schema;1",
+          "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:odr:schema;2",
           "@type": "Enum",
           "displayName": {
             "en": "Enum"
           },
           "enumValues": [
             {
-              "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:odr:schema:hz1_875;1",
+              "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:odr:schema:hz1_875;2",
               "displayName": {
                 "en": "1.875"
               },
@@ -194,7 +181,7 @@
               "name": "hz1_875"
             },
             {
-              "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:odr:schema:hz7_5;1",
+              "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:odr:schema:hz7_5;2",
               "displayName": {
                 "en": "7.5"
               },
@@ -202,7 +189,7 @@
               "name": "hz7_5"
             },
             {
-              "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:odr:schema:hz15;1",
+              "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:odr:schema:hz15;2",
               "displayName": {
                 "en": "15"
               },
@@ -210,7 +197,7 @@
               "name": "hz15"
             },
             {
-              "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:odr:schema:hz30;1",
+              "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:odr:schema:hz30;2",
               "displayName": {
                 "en": "30"
               },
@@ -218,7 +205,7 @@
               "name": "hz30"
             },
             {
-              "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:odr:schema:hz60;1",
+              "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:odr:schema:hz60;2",
               "displayName": {
                 "en": "60"
               },
@@ -226,7 +213,7 @@
               "name": "hz60"
             },
             {
-              "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:odr:schema:hz120;1",
+              "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:odr:schema:hz120;2",
               "displayName": {
                 "en": "120"
               },
@@ -234,7 +221,7 @@
               "name": "hz120"
             },
             {
-              "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:odr:schema:hz240;1",
+              "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:odr:schema:hz240;2",
               "displayName": {
                 "en": "240"
               },
@@ -242,7 +229,7 @@
               "name": "hz240"
             },
             {
-              "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:odr:schema:hz480;1",
+              "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:odr:schema:hz480;2",
               "displayName": {
                 "en": "480"
               },
@@ -250,7 +237,7 @@
               "name": "hz480"
             },
             {
-              "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:odr:schema:hz960;1",
+              "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:odr:schema:hz960;2",
               "displayName": {
                 "en": "960"
               },
@@ -258,7 +245,7 @@
               "name": "hz960"
             },
             {
-              "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:odr:schema:hz1920;1",
+              "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:odr:schema:hz1920;2",
               "displayName": {
                 "en": "1920"
               },
@@ -266,7 +253,7 @@
               "name": "hz1920"
             },
             {
-              "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:odr:schema:hz3840;1",
+              "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:odr:schema:hz3840;2",
               "displayName": {
                 "en": "3840"
               },
@@ -274,7 +261,7 @@
               "name": "hz3840"
             },
             {
-              "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:odr:schema:hz7680;1",
+              "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:odr:schema:hz7680;2",
               "displayName": {
                 "en": "7680"
               },
@@ -292,106 +279,7 @@
         "initialValue": 5
       },
       {
-        "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:odr_t;1",
-        "@type": [
-          "Property",
-          "Initialized"
-        ],
-        "displayName": {
-          "en": "ODR T"
-        },
-        "name": "odr_t",
-        "schema": {
-          "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:odr_t:schema;1",
-          "@type": "Enum",
-          "displayName": {
-            "en": "Enum"
-          },
-          "enumValues": [
-            {
-              "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:odr_t:schema:hz12_5;1",
-              "displayName": {
-                "en": "12.5"
-              },
-              "enumValue": 0,
-              "name": "hz12_5"
-            },
-            {
-              "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:odr_t:schema:hz25;1",
-              "displayName": {
-                "en": "25"
-              },
-              "enumValue": 1,
-              "name": "hz25"
-            },
-            {
-              "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:odr_t:schema:hz50;1",
-              "displayName": {
-                "en": "50"
-              },
-              "enumValue": 2,
-              "name": "hz50"
-            },
-            {
-              "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:odr_t:schema:hz100;1",
-              "displayName": {
-                "en": "100"
-              },
-              "enumValue": 3,
-              "name": "hz100"
-            },
-            {
-              "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:odr_t:schema:hz200;1",
-              "displayName": {
-                "en": "200"
-              },
-              "enumValue": 4,
-              "name": "hz200"
-            },
-            {
-              "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:odr_t:schema:hz400;1",
-              "displayName": {
-                "en": "400"
-              },
-              "enumValue": 5,
-              "name": "hz400"
-            },
-            {
-              "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:odr_t:schema:hz800;1",
-              "displayName": {
-                "en": "800"
-              },
-              "enumValue": 6,
-              "name": "hz800"
-            },
-            {
-              "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:odr_t:schema:hz1600;1",
-              "displayName": {
-                "en": "1600"
-              },
-              "enumValue": 7,
-              "name": "hz1600"
-            },
-            {
-              "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:odr_t:schema:hz3200;1",
-              "displayName": {
-                "en": "3200"
-              },
-              "enumValue": 8,
-              "name": "hz3200"
-            }
-          ],
-          "valueSchema": "integer"
-        },
-        "unit": "hertz",
-        "writable": true,
-        "displayUnit": {
-          "en": "Hz"
-        },
-        "initialValue": 5
-      },
-      {
-        "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:fs;1",
+        "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:fs;2",
         "@type": [
           "Property",
           "Initialized"
@@ -401,14 +289,14 @@
         },
         "name": "fs",
         "schema": {
-          "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:fs:schema;1",
+          "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:fs:schema;2",
           "@type": "Enum",
           "displayName": {
             "en": "Enum"
           },
           "enumValues": [
             {
-              "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:fs:schema:g2;1",
+              "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:fs:schema:g2;2",
               "displayName": {
                 "en": "2"
               },
@@ -416,7 +304,7 @@
               "name": "g2"
             },
             {
-              "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:fs:schema:g4;1",
+              "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:fs:schema:g4;2",
               "displayName": {
                 "en": "4"
               },
@@ -424,7 +312,7 @@
               "name": "g4"
             },
             {
-              "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:fs:schema:g8;1",
+              "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:fs:schema:g8;2",
               "displayName": {
                 "en": "8"
               },
@@ -432,7 +320,7 @@
               "name": "g8"
             },
             {
-              "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:fs:schema:g16;1",
+              "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:fs:schema:g16;2",
               "displayName": {
                 "en": "16"
               },
@@ -450,7 +338,7 @@
         "initialValue": 1
       },
       {
-        "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:initial_timestamp;1",
+        "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:initial_timestamp;2",
         "@type": [
           "Property",
           "NumberValue"
@@ -463,7 +351,7 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:measured_odr;1",
+        "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:measured_odr;2",
         "@type": [
           "Property",
           "NumberValue"
@@ -476,7 +364,7 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:sensitivity;1",
+        "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:sensitivity;2",
         "@type": [
           "Property",
           "NumberValue"
@@ -489,7 +377,7 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:annotation;1",
+        "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:annotation;2",
         "@type": [
           "Property",
           "StringValue"
@@ -502,7 +390,7 @@
         "writable": true
       },
       {
-        "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:output;1",
+        "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:output;2",
         "@type": [
           "Telemetry",
           "StringValue"
@@ -518,47 +406,47 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:output_st_stream;1",
+        "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:output_st_stream;2",
         "@type": "Property",
         "displayName": {
           "en": "Output ST Stream"
         },
         "name": "output_st_stream",
         "schema": {
-          "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:output_st_stream:schema;1",
+          "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:output_st_stream:schema;2",
           "@type": "Object",
           "displayName": {
             "en": "Object"
           },
           "fields": [
             {
-              "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:output_st_stream:schema:channel_specification;1",
+              "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:output_st_stream:schema:channel_specification;2",
               "displayName": {
                 "en": "Channel Specification"
               },
               "name": "channel_specification",
               "schema": {
-                "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:output_st_stream:schema:channel_specification:schema;1",
+                "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:output_st_stream:schema:channel_specification:schema;2",
                 "@type": "Object",
                 "displayName": {
                   "en": "Object"
                 },
                 "fields": [
                   {
-                    "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:output_st_stream:schema:channel_specification:schema:interface;1",
+                    "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:output_st_stream:schema:channel_specification:schema:interface;2",
                     "displayName": {
                       "en": "Interface"
                     },
                     "name": "interface",
                     "schema": {
-                      "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:output_st_stream:schema:channel_specification:schema:interface:schema;1",
+                      "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:output_st_stream:schema:channel_specification:schema:interface:schema;2",
                       "@type": "Enum",
                       "displayName": {
                         "en": "Enum"
                       },
                       "enumValues": [
                         {
-                          "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:output_st_stream:schema:channel_specification:schema:interface:schema:sd;1",
+                          "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:output_st_stream:schema:channel_specification:schema:interface:schema:sd;2",
                           "displayName": {
                             "en": "SD"
                           },
@@ -566,7 +454,7 @@
                           "name": "sd"
                         },
                         {
-                          "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:output_st_stream:schema:channel_specification:schema:interface:schema:usb;1",
+                          "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:output_st_stream:schema:channel_specification:schema:interface:schema:usb;2",
                           "displayName": {
                             "en": "USB"
                           },
@@ -574,7 +462,7 @@
                           "name": "usb"
                         },
                         {
-                          "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:output_st_stream:schema:channel_specification:schema:interface:schema:ble;1",
+                          "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:output_st_stream:schema:channel_specification:schema:interface:schema:ble;2",
                           "displayName": {
                             "en": "BLE"
                           },
@@ -582,7 +470,7 @@
                           "name": "ble"
                         },
                         {
-                          "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:output_st_stream:schema:channel_specification:schema:interface:schema:serial;1",
+                          "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:output_st_stream:schema:channel_specification:schema:interface:schema:serial;2",
                           "displayName": {
                             "en": "Serial"
                           },
@@ -590,7 +478,7 @@
                           "name": "serial"
                         },
                         {
-                          "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:output_st_stream:schema:channel_specification:schema:interface:schema:link;1",
+                          "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:output_st_stream:schema:channel_specification:schema:interface:schema:link;2",
                           "displayName": {
                             "en": "Link"
                           },
@@ -602,20 +490,20 @@
                     }
                   },
                   {
-                    "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:output_st_stream:schema:channel_specification:schema:protocol_type;1",
+                    "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:output_st_stream:schema:channel_specification:schema:protocol_type;2",
                     "displayName": {
                       "en": "Protocol Type"
                     },
                     "name": "protocol_type",
                     "schema": {
-                      "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:output_st_stream:schema:channel_specification:schema:protocol_type:schema;1",
+                      "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:output_st_stream:schema:channel_specification:schema:protocol_type:schema;2",
                       "@type": "Enum",
                       "displayName": {
                         "en": "Enum"
                       },
                       "enumValues": [
                         {
-                          "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:output_st_stream:schema:channel_specification:schema:protocol_type:schema:hsd;1",
+                          "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:output_st_stream:schema:channel_specification:schema:protocol_type:schema:hsd;2",
                           "displayName": {
                             "en": "HSD"
                           },
@@ -623,7 +511,7 @@
                           "name": "hsd"
                         },
                         {
-                          "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:output_st_stream:schema:channel_specification:schema:protocol_type:schema:bluest;1",
+                          "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:output_st_stream:schema:channel_specification:schema:protocol_type:schema:bluest;2",
                           "displayName": {
                             "en": "BLUEST"
                           },
@@ -631,7 +519,7 @@
                           "name": "bluest"
                         },
                         {
-                          "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:output_st_stream:schema:channel_specification:schema:protocol_type:schema:aspep_sstl;1",
+                          "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:output_st_stream:schema:channel_specification:schema:protocol_type:schema:aspep_sstl;2",
                           "displayName": {
                             "en": "ASPEP_SSTL"
                           },
@@ -643,7 +531,7 @@
                     }
                   },
                   {
-                    "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:output_st_stream:schema:channel_specification:schema:protocol_version;1",
+                    "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:output_st_stream:schema:channel_specification:schema:protocol_version;2",
                     "displayName": {
                       "en": "Protocol Version"
                     },
@@ -651,20 +539,20 @@
                     "schema": "string"
                   },
                   {
-                    "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:output_st_stream:schema:channel_specification:schema:payload_type;1",
+                    "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:output_st_stream:schema:channel_specification:schema:payload_type;2",
                     "displayName": {
                       "en": "Payload Type"
                     },
                     "name": "payload_type",
                     "schema": {
-                      "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:output_st_stream:schema:channel_specification:schema:payload_type:schema;1",
+                      "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:output_st_stream:schema:channel_specification:schema:payload_type:schema;2",
                       "@type": "Enum",
                       "displayName": {
                         "en": "Enum"
                       },
                       "enumValues": [
                         {
-                          "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:output_st_stream:schema:channel_specification:schema:payload_type:schema:custom;1",
+                          "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:output_st_stream:schema:channel_specification:schema:payload_type:schema:custom;2",
                           "displayName": {
                             "en": "CUSTOM"
                           },
@@ -672,7 +560,7 @@
                           "name": "custom"
                         },
                         {
-                          "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:output_st_stream:schema:channel_specification:schema:payload_type:schema:standard;1",
+                          "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:output_st_stream:schema:channel_specification:schema:payload_type:schema:standard;2",
                           "displayName": {
                             "en": "STANDARD"
                           },
@@ -680,7 +568,7 @@
                           "name": "standard"
                         },
                         {
-                          "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:output_st_stream:schema:channel_specification:schema:payload_type:schema:hsd;1",
+                          "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:output_st_stream:schema:channel_specification:schema:payload_type:schema:hsd;2",
                           "displayName": {
                             "en": "HSD"
                           },
@@ -692,7 +580,7 @@
                     }
                   },
                   {
-                    "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:output_st_stream:schema:channel_specification:schema:payload_version;1",
+                    "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:output_st_stream:schema:channel_specification:schema:payload_version;2",
                     "displayName": {
                       "en": "Payload Version"
                     },
@@ -700,7 +588,7 @@
                     "schema": "string"
                   },
                   {
-                    "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:output_st_stream:schema:channel_specification:schema:stream_id;1",
+                    "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:output_st_stream:schema:channel_specification:schema:stream_id;2",
                     "displayName": {
                       "en": "Stream ID"
                     },
@@ -711,33 +599,33 @@
               }
             },
             {
-              "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:output_st_stream:schema:payload_specification;1",
+              "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:output_st_stream:schema:payload_specification;2",
               "displayName": {
                 "en": "Payload Specification"
               },
               "name": "payload_specification",
               "schema": {
-                "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:output_st_stream:schema:payload_specification:schema;1",
+                "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:output_st_stream:schema:payload_specification:schema;2",
                 "@type": "Object",
                 "displayName": {
                   "en": "Object"
                 },
                 "fields": [
                   {
-                    "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:output_st_stream:schema:payload_specification:schema:timestamp;1",
+                    "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:output_st_stream:schema:payload_specification:schema:timestamp;2",
                     "displayName": {
                       "en": "Timestamp"
                     },
                     "name": "timestamp",
                     "schema": {
-                      "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:output_st_stream:schema:payload_specification:schema:timestamp:schema;1",
+                      "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:output_st_stream:schema:payload_specification:schema:timestamp:schema;2",
                       "@type": "Object",
                       "displayName": {
                         "en": "Object"
                       },
                       "fields": [
                         {
-                          "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:output_st_stream:schema:payload_specification:schema:timestamp:schema:data_type;1",
+                          "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:output_st_stream:schema:payload_specification:schema:timestamp:schema:data_type;2",
                           "displayName": {
                             "en": "Data Type"
                           },
@@ -745,7 +633,7 @@
                           "schema": "string"
                         },
                         {
-                          "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:output_st_stream:schema:payload_specification:schema:timestamp:schema:dimensions;1",
+                          "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:output_st_stream:schema:payload_specification:schema:timestamp:schema:dimensions;2",
                           "displayName": {
                             "en": "Dimensions"
                           },
@@ -753,7 +641,7 @@
                           "schema": "integer"
                         },
                         {
-                          "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:output_st_stream:schema:payload_specification:schema:timestamp:schema:unit;1",
+                          "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:output_st_stream:schema:payload_specification:schema:timestamp:schema:unit;2",
                           "displayName": {
                             "en": "Unit"
                           },
@@ -761,7 +649,7 @@
                           "schema": "string"
                         },
                         {
-                          "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:output_st_stream:schema:payload_specification:schema:timestamp:schema:short_unit;1",
+                          "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:output_st_stream:schema:payload_specification:schema:timestamp:schema:short_unit;2",
                           "displayName": {
                             "en": "Short Unit"
                           },
@@ -769,7 +657,7 @@
                           "schema": "string"
                         },
                         {
-                          "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:output_st_stream:schema:payload_specification:schema:timestamp:schema:labels;1",
+                          "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:output_st_stream:schema:payload_specification:schema:timestamp:schema:labels;2",
                           "displayName": {
                             "en": "Labels"
                           },
@@ -780,20 +668,20 @@
                     }
                   },
                   {
-                    "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:output_st_stream:schema:payload_specification:schema:x;1",
+                    "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:output_st_stream:schema:payload_specification:schema:x;2",
                     "displayName": {
                       "en": "X"
                     },
                     "name": "x",
                     "schema": {
-                      "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:output_st_stream:schema:payload_specification:schema:x:schema;1",
+                      "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:output_st_stream:schema:payload_specification:schema:x:schema;2",
                       "@type": "Object",
                       "displayName": {
                         "en": "Object"
                       },
                       "fields": [
                         {
-                          "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:output_st_stream:schema:payload_specification:schema:x:schema:data_type;1",
+                          "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:output_st_stream:schema:payload_specification:schema:x:schema:data_type;2",
                           "displayName": {
                             "en": "Data Type"
                           },
@@ -801,7 +689,7 @@
                           "schema": "string"
                         },
                         {
-                          "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:output_st_stream:schema:payload_specification:schema:x:schema:dimensions;1",
+                          "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:output_st_stream:schema:payload_specification:schema:x:schema:dimensions;2",
                           "displayName": {
                             "en": "Dimensions"
                           },
@@ -809,7 +697,7 @@
                           "schema": "integer"
                         },
                         {
-                          "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:output_st_stream:schema:payload_specification:schema:x:schema:unit;1",
+                          "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:output_st_stream:schema:payload_specification:schema:x:schema:unit;2",
                           "displayName": {
                             "en": "Unit"
                           },
@@ -817,7 +705,7 @@
                           "schema": "string"
                         },
                         {
-                          "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:output_st_stream:schema:payload_specification:schema:x:schema:short_unit;1",
+                          "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:output_st_stream:schema:payload_specification:schema:x:schema:short_unit;2",
                           "displayName": {
                             "en": "Short Unit"
                           },
@@ -825,7 +713,7 @@
                           "schema": "string"
                         },
                         {
-                          "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:output_st_stream:schema:payload_specification:schema:x:schema:labels;1",
+                          "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:output_st_stream:schema:payload_specification:schema:x:schema:labels;2",
                           "displayName": {
                             "en": "Labels"
                           },
@@ -836,20 +724,20 @@
                     }
                   },
                   {
-                    "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:output_st_stream:schema:payload_specification:schema:y;1",
+                    "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:output_st_stream:schema:payload_specification:schema:y;2",
                     "displayName": {
                       "en": "Y"
                     },
                     "name": "y",
                     "schema": {
-                      "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:output_st_stream:schema:payload_specification:schema:y:schema;1",
+                      "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:output_st_stream:schema:payload_specification:schema:y:schema;2",
                       "@type": "Object",
                       "displayName": {
                         "en": "Object"
                       },
                       "fields": [
                         {
-                          "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:output_st_stream:schema:payload_specification:schema:y:schema:data_type;1",
+                          "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:output_st_stream:schema:payload_specification:schema:y:schema:data_type;2",
                           "displayName": {
                             "en": "Data Type"
                           },
@@ -857,7 +745,7 @@
                           "schema": "string"
                         },
                         {
-                          "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:output_st_stream:schema:payload_specification:schema:y:schema:dimensions;1",
+                          "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:output_st_stream:schema:payload_specification:schema:y:schema:dimensions;2",
                           "displayName": {
                             "en": "Dimensions"
                           },
@@ -865,7 +753,7 @@
                           "schema": "integer"
                         },
                         {
-                          "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:output_st_stream:schema:payload_specification:schema:y:schema:unit;1",
+                          "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:output_st_stream:schema:payload_specification:schema:y:schema:unit;2",
                           "displayName": {
                             "en": "Unit"
                           },
@@ -873,7 +761,7 @@
                           "schema": "string"
                         },
                         {
-                          "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:output_st_stream:schema:payload_specification:schema:y:schema:short_unit;1",
+                          "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:output_st_stream:schema:payload_specification:schema:y:schema:short_unit;2",
                           "displayName": {
                             "en": "Short Unit"
                           },
@@ -881,7 +769,7 @@
                           "schema": "string"
                         },
                         {
-                          "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:output_st_stream:schema:payload_specification:schema:y:schema:labels;1",
+                          "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:output_st_stream:schema:payload_specification:schema:y:schema:labels;2",
                           "displayName": {
                             "en": "Labels"
                           },
@@ -892,20 +780,20 @@
                     }
                   },
                   {
-                    "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:output_st_stream:schema:payload_specification:schema:z;1",
+                    "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:output_st_stream:schema:payload_specification:schema:z;2",
                     "displayName": {
                       "en": "Z"
                     },
                     "name": "z",
                     "schema": {
-                      "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:output_st_stream:schema:payload_specification:schema:z:schema;1",
+                      "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:output_st_stream:schema:payload_specification:schema:z:schema;2",
                       "@type": "Object",
                       "displayName": {
                         "en": "Object"
                       },
                       "fields": [
                         {
-                          "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:output_st_stream:schema:payload_specification:schema:z:schema:data_type;1",
+                          "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:output_st_stream:schema:payload_specification:schema:z:schema:data_type;2",
                           "displayName": {
                             "en": "Data Type"
                           },
@@ -913,7 +801,7 @@
                           "schema": "string"
                         },
                         {
-                          "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:output_st_stream:schema:payload_specification:schema:z:schema:dimensions;1",
+                          "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:output_st_stream:schema:payload_specification:schema:z:schema:dimensions;2",
                           "displayName": {
                             "en": "Dimensions"
                           },
@@ -921,7 +809,7 @@
                           "schema": "integer"
                         },
                         {
-                          "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:output_st_stream:schema:payload_specification:schema:z:schema:unit;1",
+                          "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:output_st_stream:schema:payload_specification:schema:z:schema:unit;2",
                           "displayName": {
                             "en": "Unit"
                           },
@@ -929,7 +817,7 @@
                           "schema": "string"
                         },
                         {
-                          "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:output_st_stream:schema:payload_specification:schema:z:schema:short_unit;1",
+                          "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:output_st_stream:schema:payload_specification:schema:z:schema:short_unit;2",
                           "displayName": {
                             "en": "Short Unit"
                           },
@@ -937,7 +825,7 @@
                           "schema": "string"
                         },
                         {
-                          "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:output_st_stream:schema:payload_specification:schema:z:schema:labels;1",
+                          "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_acc:output_st_stream:schema:payload_specification:schema:z:schema:labels;2",
                           "displayName": {
                             "en": "Labels"
                           },
@@ -964,11 +852,11 @@
       "dtmi:iotcentral:context;2",
       "dtmi:dtdl:context;2"
     ],
-    "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro;1",
+    "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro;2",
     "@type": "Interface",
     "contents": [
       {
-        "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:enable;1",
+        "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:enable;2",
         "@type": [
           "Property",
           "BooleanValue"
@@ -981,7 +869,7 @@
         "writable": true
       },
       {
-        "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:data_type;1",
+        "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:data_type;2",
         "@type": [
           "Property",
           "StringValue"
@@ -994,7 +882,7 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:nucleo_stm32f401re:SDATALOG_LSM6D1SV16X_MLC:sensors:ism6hg256x_gyro:dimensions;1",
+        "@id": "dtmi:appconfig:nucleo_stm32f401re:SDATALOG_LSM6D1SV16X_MLC:sensors:ism6hg256x_gyro:dimensions;2",
         "@type": [
           "Property",
           "NumberValue"
@@ -1007,7 +895,7 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:unit;1",
+        "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:unit;2",
         "@type": [
           "Property",
           "StringValue"
@@ -1020,7 +908,7 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:short_unit;1",
+        "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:short_unit;2",
         "@type": [
           "Property",
           "StringValue"
@@ -1033,7 +921,7 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:sensor_category;1",
+        "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:sensor_category;2",
         "@type": [
           "Property",
           "NumberValue"
@@ -1049,20 +937,7 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:odr_triggered;1",
-        "@type": [
-          "Property",
-          "BooleanValue"
-        ],
-        "displayName": {
-          "en": "ODR Triggered"
-        },
-        "name": "odr_triggered",
-        "schema": "boolean",
-        "writable": true
-      },
-      {
-        "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:odr;1",
+        "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:odr;2",
         "@type": [
           "Property",
           "Initialized"
@@ -1072,14 +947,14 @@
         },
         "name": "odr",
         "schema": {
-          "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:odr:schema;1",
+          "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:odr:schema;2",
           "@type": "Enum",
           "displayName": {
             "en": "Enum"
           },
           "enumValues": [
             {
-              "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:odr:schema:hz7_5;1",
+              "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:odr:schema:hz7_5;2",
               "displayName": {
                 "en": "7.5"
               },
@@ -1087,7 +962,7 @@
               "name": "hz7_5"
             },
             {
-              "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:odr:schema:hz15;1",
+              "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:odr:schema:hz15;2",
               "displayName": {
                 "en": "15"
               },
@@ -1095,7 +970,7 @@
               "name": "hz15"
             },
             {
-              "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:odr:schema:hz30;1",
+              "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:odr:schema:hz30;2",
               "displayName": {
                 "en": "30"
               },
@@ -1103,7 +978,7 @@
               "name": "hz30"
             },
             {
-              "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:odr:schema:hz60;1",
+              "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:odr:schema:hz60;2",
               "displayName": {
                 "en": "60"
               },
@@ -1111,7 +986,7 @@
               "name": "hz60"
             },
             {
-              "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:odr:schema:hz120;1",
+              "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:odr:schema:hz120;2",
               "displayName": {
                 "en": "120"
               },
@@ -1119,7 +994,7 @@
               "name": "hz120"
             },
             {
-              "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:odr:schema:hz240;1",
+              "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:odr:schema:hz240;2",
               "displayName": {
                 "en": "240"
               },
@@ -1127,7 +1002,7 @@
               "name": "hz240"
             },
             {
-              "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:odr:schema:hz480;1",
+              "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:odr:schema:hz480;2",
               "displayName": {
                 "en": "480"
               },
@@ -1135,7 +1010,7 @@
               "name": "hz480"
             },
             {
-              "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:odr:schema:hz960;1",
+              "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:odr:schema:hz960;2",
               "displayName": {
                 "en": "960"
               },
@@ -1143,7 +1018,7 @@
               "name": "hz960"
             },
             {
-              "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:odr:schema:hz1920;1",
+              "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:odr:schema:hz1920;2",
               "displayName": {
                 "en": "1920"
               },
@@ -1151,7 +1026,7 @@
               "name": "hz1920"
             },
             {
-              "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:odr:schema:hz3840;1",
+              "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:odr:schema:hz3840;2",
               "displayName": {
                 "en": "3840"
               },
@@ -1159,7 +1034,7 @@
               "name": "hz3840"
             },
             {
-              "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:odr:schema:hz7680;1",
+              "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:odr:schema:hz7680;2",
               "displayName": {
                 "en": "7680"
               },
@@ -1177,106 +1052,7 @@
         "initialValue": 5
       },
       {
-        "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:odr_t;1",
-        "@type": [
-          "Property",
-          "Initialized"
-        ],
-        "displayName": {
-          "en": "ODR T"
-        },
-        "name": "odr_t",
-        "schema": {
-          "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:odr_t:schema;1",
-          "@type": "Enum",
-          "displayName": {
-            "en": "Enum"
-          },
-          "enumValues": [
-            {
-              "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:odr_t:schema:hz12_5;1",
-              "displayName": {
-                "en": "12.5"
-              },
-              "enumValue": 0,
-              "name": "hz12_5"
-            },
-            {
-              "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:odr_t:schema:hz25;1",
-              "displayName": {
-                "en": "25"
-              },
-              "enumValue": 1,
-              "name": "hz25"
-            },
-            {
-              "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:odr_t:schema:hz50;1",
-              "displayName": {
-                "en": "50"
-              },
-              "enumValue": 2,
-              "name": "hz50"
-            },
-            {
-              "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:odr_t:schema:hz100;1",
-              "displayName": {
-                "en": "100"
-              },
-              "enumValue": 3,
-              "name": "hz100"
-            },
-            {
-              "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:odr_t:schema:hz200;1",
-              "displayName": {
-                "en": "200"
-              },
-              "enumValue": 4,
-              "name": "hz200"
-            },
-            {
-              "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:odr_t:schema:hz400;1",
-              "displayName": {
-                "en": "400"
-              },
-              "enumValue": 5,
-              "name": "hz400"
-            },
-            {
-              "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:odr_t:schema:hz800;1",
-              "displayName": {
-                "en": "800"
-              },
-              "enumValue": 6,
-              "name": "hz800"
-            },
-            {
-              "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:odr_t:schema:hz1600;1",
-              "displayName": {
-                "en": "1600"
-              },
-              "enumValue": 7,
-              "name": "hz1600"
-            },
-            {
-              "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:odr_t:schema:hz3200;1",
-              "displayName": {
-                "en": "3200"
-              },
-              "enumValue": 8,
-              "name": "hz3200"
-            }
-          ],
-          "valueSchema": "integer"
-        },
-        "unit": "hertz",
-        "writable": true,
-        "displayUnit": {
-          "en": "Hz"
-        },
-        "initialValue": 5
-      },
-      {
-        "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:fs;1",
+        "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:fs;2",
         "@type": [
           "Property",
           "Initialized"
@@ -1286,14 +1062,14 @@
         },
         "name": "fs",
         "schema": {
-          "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:fs:schema;1",
+          "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:fs:schema;2",
           "@type": "Enum",
           "displayName": {
             "en": "Enum"
           },
           "enumValues": [
             {
-              "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:fs:schema:dps250;1",
+              "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:fs:schema:dps250;2",
               "displayName": {
                 "en": "250"
               },
@@ -1301,7 +1077,7 @@
               "name": "dps250"
             },
             {
-              "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:fs:schema:dps500;1",
+              "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:fs:schema:dps500;2",
               "displayName": {
                 "en": "500"
               },
@@ -1309,7 +1085,7 @@
               "name": "dps500"
             },
             {
-              "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:fs:schema:dps1000;1",
+              "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:fs:schema:dps1000;2",
               "displayName": {
                 "en": "1000"
               },
@@ -1317,7 +1093,7 @@
               "name": "dps1000"
             },
             {
-              "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:fs:schema:dps2000;1",
+              "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:fs:schema:dps2000;2",
               "displayName": {
                 "en": "2000"
               },
@@ -1325,7 +1101,7 @@
               "name": "dps2000"
             },
             {
-              "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:fs:schema:dps4000;1",
+              "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:fs:schema:dps4000;2",
               "displayName": {
                 "en": "4000"
               },
@@ -1343,7 +1119,7 @@
         "initialValue": 4
       },
       {
-        "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:initial_timestamp;1",
+        "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:initial_timestamp;2",
         "@type": [
           "Property",
           "NumberValue"
@@ -1356,7 +1132,7 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:measured_odr;1",
+        "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:measured_odr;2",
         "@type": [
           "Property",
           "NumberValue"
@@ -1369,7 +1145,7 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:sensitivity;1",
+        "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:sensitivity;2",
         "@type": [
           "Property",
           "NumberValue"
@@ -1382,7 +1158,7 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:annotation;1",
+        "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:annotation;2",
         "@type": [
           "Property",
           "StringValue"
@@ -1395,7 +1171,7 @@
         "writable": true
       },
       {
-        "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:output;1",
+        "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:output;2",
         "@type": [
           "Telemetry",
           "StringValue"
@@ -1411,47 +1187,47 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:output_st_stream;1",
+        "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:output_st_stream;2",
         "@type": "Property",
         "displayName": {
           "en": "Output ST Stream"
         },
         "name": "output_st_stream",
         "schema": {
-          "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:output_st_stream:schema;1",
+          "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:output_st_stream:schema;2",
           "@type": "Object",
           "displayName": {
             "en": "Object"
           },
           "fields": [
             {
-              "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:output_st_stream:schema:channel_specification;1",
+              "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:output_st_stream:schema:channel_specification;2",
               "displayName": {
                 "en": "Channel Specification"
               },
               "name": "channel_specification",
               "schema": {
-                "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:output_st_stream:schema:channel_specification:schema;1",
+                "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:output_st_stream:schema:channel_specification:schema;2",
                 "@type": "Object",
                 "displayName": {
                   "en": "Object"
                 },
                 "fields": [
                   {
-                    "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:output_st_stream:schema:channel_specification:schema:interface;1",
+                    "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:output_st_stream:schema:channel_specification:schema:interface;2",
                     "displayName": {
                       "en": "Interface"
                     },
                     "name": "interface",
                     "schema": {
-                      "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:output_st_stream:schema:channel_specification:schema:interface:schema;1",
+                      "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:output_st_stream:schema:channel_specification:schema:interface:schema;2",
                       "@type": "Enum",
                       "displayName": {
                         "en": "Enum"
                       },
                       "enumValues": [
                         {
-                          "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:output_st_stream:schema:channel_specification:schema:interface:schema:sd;1",
+                          "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:output_st_stream:schema:channel_specification:schema:interface:schema:sd;2",
                           "displayName": {
                             "en": "SD"
                           },
@@ -1459,7 +1235,7 @@
                           "name": "sd"
                         },
                         {
-                          "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:output_st_stream:schema:channel_specification:schema:interface:schema:usb;1",
+                          "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:output_st_stream:schema:channel_specification:schema:interface:schema:usb;2",
                           "displayName": {
                             "en": "USB"
                           },
@@ -1467,7 +1243,7 @@
                           "name": "usb"
                         },
                         {
-                          "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:output_st_stream:schema:channel_specification:schema:interface:schema:ble;1",
+                          "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:output_st_stream:schema:channel_specification:schema:interface:schema:ble;2",
                           "displayName": {
                             "en": "BLE"
                           },
@@ -1475,7 +1251,7 @@
                           "name": "ble"
                         },
                         {
-                          "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:output_st_stream:schema:channel_specification:schema:interface:schema:serial;1",
+                          "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:output_st_stream:schema:channel_specification:schema:interface:schema:serial;2",
                           "displayName": {
                             "en": "Serial"
                           },
@@ -1483,7 +1259,7 @@
                           "name": "serial"
                         },
                         {
-                          "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:output_st_stream:schema:channel_specification:schema:interface:schema:link;1",
+                          "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:output_st_stream:schema:channel_specification:schema:interface:schema:link;2",
                           "displayName": {
                             "en": "Link"
                           },
@@ -1495,20 +1271,20 @@
                     }
                   },
                   {
-                    "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:output_st_stream:schema:channel_specification:schema:protocol_type;1",
+                    "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:output_st_stream:schema:channel_specification:schema:protocol_type;2",
                     "displayName": {
                       "en": "Protocol Type"
                     },
                     "name": "protocol_type",
                     "schema": {
-                      "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:output_st_stream:schema:channel_specification:schema:protocol_type:schema;1",
+                      "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:output_st_stream:schema:channel_specification:schema:protocol_type:schema;2",
                       "@type": "Enum",
                       "displayName": {
                         "en": "Enum"
                       },
                       "enumValues": [
                         {
-                          "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:output_st_stream:schema:channel_specification:schema:protocol_type:schema:hsd;1",
+                          "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:output_st_stream:schema:channel_specification:schema:protocol_type:schema:hsd;2",
                           "displayName": {
                             "en": "HSD"
                           },
@@ -1516,7 +1292,7 @@
                           "name": "hsd"
                         },
                         {
-                          "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:output_st_stream:schema:channel_specification:schema:protocol_type:schema:bluest;1",
+                          "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:output_st_stream:schema:channel_specification:schema:protocol_type:schema:bluest;2",
                           "displayName": {
                             "en": "BLUEST"
                           },
@@ -1524,7 +1300,7 @@
                           "name": "bluest"
                         },
                         {
-                          "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:output_st_stream:schema:channel_specification:schema:protocol_type:schema:aspep_sstl;1",
+                          "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:output_st_stream:schema:channel_specification:schema:protocol_type:schema:aspep_sstl;2",
                           "displayName": {
                             "en": "ASPEP_SSTL"
                           },
@@ -1536,7 +1312,7 @@
                     }
                   },
                   {
-                    "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:output_st_stream:schema:channel_specification:schema:protocol_version;1",
+                    "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:output_st_stream:schema:channel_specification:schema:protocol_version;2",
                     "displayName": {
                       "en": "Protocol Version"
                     },
@@ -1544,20 +1320,20 @@
                     "schema": "string"
                   },
                   {
-                    "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:output_st_stream:schema:channel_specification:schema:payload_type;1",
+                    "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:output_st_stream:schema:channel_specification:schema:payload_type;2",
                     "displayName": {
                       "en": "Payload Type"
                     },
                     "name": "payload_type",
                     "schema": {
-                      "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:output_st_stream:schema:channel_specification:schema:payload_type:schema;1",
+                      "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:output_st_stream:schema:channel_specification:schema:payload_type:schema;2",
                       "@type": "Enum",
                       "displayName": {
                         "en": "Enum"
                       },
                       "enumValues": [
                         {
-                          "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:output_st_stream:schema:channel_specification:schema:payload_type:schema:custom;1",
+                          "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:output_st_stream:schema:channel_specification:schema:payload_type:schema:custom;2",
                           "displayName": {
                             "en": "CUSTOM"
                           },
@@ -1565,7 +1341,7 @@
                           "name": "custom"
                         },
                         {
-                          "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:output_st_stream:schema:channel_specification:schema:payload_type:schema:standard;1",
+                          "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:output_st_stream:schema:channel_specification:schema:payload_type:schema:standard;2",
                           "displayName": {
                             "en": "STANDARD"
                           },
@@ -1573,7 +1349,7 @@
                           "name": "standard"
                         },
                         {
-                          "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:output_st_stream:schema:channel_specification:schema:payload_type:schema:hsd;1",
+                          "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:output_st_stream:schema:channel_specification:schema:payload_type:schema:hsd;2",
                           "displayName": {
                             "en": "HSD"
                           },
@@ -1585,7 +1361,7 @@
                     }
                   },
                   {
-                    "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:output_st_stream:schema:channel_specification:schema:payload_version;1",
+                    "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:output_st_stream:schema:channel_specification:schema:payload_version;2",
                     "displayName": {
                       "en": "Payload Version"
                     },
@@ -1593,7 +1369,7 @@
                     "schema": "string"
                   },
                   {
-                    "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:output_st_stream:schema:channel_specification:schema:stream_id;1",
+                    "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:output_st_stream:schema:channel_specification:schema:stream_id;2",
                     "displayName": {
                       "en": "Stream ID"
                     },
@@ -1604,33 +1380,33 @@
               }
             },
             {
-              "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:output_st_stream:schema:payload_specification;1",
+              "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:output_st_stream:schema:payload_specification;2",
               "displayName": {
                 "en": "Payload Specification"
               },
               "name": "payload_specification",
               "schema": {
-                "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:output_st_stream:schema:payload_specification:schema;1",
+                "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:output_st_stream:schema:payload_specification:schema;2",
                 "@type": "Object",
                 "displayName": {
                   "en": "Object"
                 },
                 "fields": [
                   {
-                    "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:output_st_stream:schema:payload_specification:schema:timestamp;1",
+                    "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:output_st_stream:schema:payload_specification:schema:timestamp;2",
                     "displayName": {
                       "en": "Timestamp"
                     },
                     "name": "timestamp",
                     "schema": {
-                      "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:output_st_stream:schema:payload_specification:schema:timestamp:schema;1",
+                      "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:output_st_stream:schema:payload_specification:schema:timestamp:schema;2",
                       "@type": "Object",
                       "displayName": {
                         "en": "Object"
                       },
                       "fields": [
                         {
-                          "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:output_st_stream:schema:payload_specification:schema:timestamp:schema:data_type;1",
+                          "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:output_st_stream:schema:payload_specification:schema:timestamp:schema:data_type;2",
                           "displayName": {
                             "en": "Data Type"
                           },
@@ -1638,7 +1414,7 @@
                           "schema": "string"
                         },
                         {
-                          "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:output_st_stream:schema:payload_specification:schema:timestamp:schema:dimensions;1",
+                          "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:output_st_stream:schema:payload_specification:schema:timestamp:schema:dimensions;2",
                           "displayName": {
                             "en": "Dimensions"
                           },
@@ -1646,7 +1422,7 @@
                           "schema": "integer"
                         },
                         {
-                          "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:output_st_stream:schema:payload_specification:schema:timestamp:schema:unit;1",
+                          "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:output_st_stream:schema:payload_specification:schema:timestamp:schema:unit;2",
                           "displayName": {
                             "en": "Unit"
                           },
@@ -1654,7 +1430,7 @@
                           "schema": "string"
                         },
                         {
-                          "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:output_st_stream:schema:payload_specification:schema:timestamp:schema:short_unit;1",
+                          "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:output_st_stream:schema:payload_specification:schema:timestamp:schema:short_unit;2",
                           "displayName": {
                             "en": "Short Unit"
                           },
@@ -1662,7 +1438,7 @@
                           "schema": "string"
                         },
                         {
-                          "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:output_st_stream:schema:payload_specification:schema:timestamp:schema:labels;1",
+                          "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:output_st_stream:schema:payload_specification:schema:timestamp:schema:labels;2",
                           "displayName": {
                             "en": "Labels"
                           },
@@ -1673,20 +1449,20 @@
                     }
                   },
                   {
-                    "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:output_st_stream:schema:payload_specification:schema:x;1",
+                    "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:output_st_stream:schema:payload_specification:schema:x;2",
                     "displayName": {
                       "en": "X"
                     },
                     "name": "x",
                     "schema": {
-                      "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:output_st_stream:schema:payload_specification:schema:x:schema;1",
+                      "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:output_st_stream:schema:payload_specification:schema:x:schema;2",
                       "@type": "Object",
                       "displayName": {
                         "en": "Object"
                       },
                       "fields": [
                         {
-                          "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:output_st_stream:schema:payload_specification:schema:x:schema:data_type;1",
+                          "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:output_st_stream:schema:payload_specification:schema:x:schema:data_type;2",
                           "displayName": {
                             "en": "Data Type"
                           },
@@ -1694,7 +1470,7 @@
                           "schema": "string"
                         },
                         {
-                          "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:output_st_stream:schema:payload_specification:schema:x:schema:dimensions;1",
+                          "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:output_st_stream:schema:payload_specification:schema:x:schema:dimensions;2",
                           "displayName": {
                             "en": "Dimensions"
                           },
@@ -1702,7 +1478,7 @@
                           "schema": "integer"
                         },
                         {
-                          "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:output_st_stream:schema:payload_specification:schema:x:schema:unit;1",
+                          "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:output_st_stream:schema:payload_specification:schema:x:schema:unit;2",
                           "displayName": {
                             "en": "Unit"
                           },
@@ -1710,7 +1486,7 @@
                           "schema": "string"
                         },
                         {
-                          "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:output_st_stream:schema:payload_specification:schema:x:schema:short_unit;1",
+                          "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:output_st_stream:schema:payload_specification:schema:x:schema:short_unit;2",
                           "displayName": {
                             "en": "Short Unit"
                           },
@@ -1718,7 +1494,7 @@
                           "schema": "string"
                         },
                         {
-                          "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:output_st_stream:schema:payload_specification:schema:x:schema:labels;1",
+                          "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:output_st_stream:schema:payload_specification:schema:x:schema:labels;2",
                           "displayName": {
                             "en": "Labels"
                           },
@@ -1729,20 +1505,20 @@
                     }
                   },
                   {
-                    "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:output_st_stream:schema:payload_specification:schema:y;1",
+                    "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:output_st_stream:schema:payload_specification:schema:y;2",
                     "displayName": {
                       "en": "Y"
                     },
                     "name": "y",
                     "schema": {
-                      "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:output_st_stream:schema:payload_specification:schema:y:schema;1",
+                      "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:output_st_stream:schema:payload_specification:schema:y:schema;2",
                       "@type": "Object",
                       "displayName": {
                         "en": "Object"
                       },
                       "fields": [
                         {
-                          "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:output_st_stream:schema:payload_specification:schema:y:schema:data_type;1",
+                          "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:output_st_stream:schema:payload_specification:schema:y:schema:data_type;2",
                           "displayName": {
                             "en": "Data Type"
                           },
@@ -1750,7 +1526,7 @@
                           "schema": "string"
                         },
                         {
-                          "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:output_st_stream:schema:payload_specification:schema:y:schema:dimensions;1",
+                          "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:output_st_stream:schema:payload_specification:schema:y:schema:dimensions;2",
                           "displayName": {
                             "en": "Dimensions"
                           },
@@ -1758,7 +1534,7 @@
                           "schema": "integer"
                         },
                         {
-                          "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:output_st_stream:schema:payload_specification:schema:y:schema:unit;1",
+                          "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:output_st_stream:schema:payload_specification:schema:y:schema:unit;2",
                           "displayName": {
                             "en": "Unit"
                           },
@@ -1766,7 +1542,7 @@
                           "schema": "string"
                         },
                         {
-                          "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:output_st_stream:schema:payload_specification:schema:y:schema:short_unit;1",
+                          "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:output_st_stream:schema:payload_specification:schema:y:schema:short_unit;2",
                           "displayName": {
                             "en": "Short Unit"
                           },
@@ -1774,7 +1550,7 @@
                           "schema": "string"
                         },
                         {
-                          "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:output_st_stream:schema:payload_specification:schema:y:schema:labels;1",
+                          "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:output_st_stream:schema:payload_specification:schema:y:schema:labels;2",
                           "displayName": {
                             "en": "Labels"
                           },
@@ -1785,20 +1561,20 @@
                     }
                   },
                   {
-                    "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:output_st_stream:schema:payload_specification:schema:z;1",
+                    "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:output_st_stream:schema:payload_specification:schema:z;2",
                     "displayName": {
                       "en": "Z"
                     },
                     "name": "z",
                     "schema": {
-                      "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:output_st_stream:schema:payload_specification:schema:z:schema;1",
+                      "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:output_st_stream:schema:payload_specification:schema:z:schema;2",
                       "@type": "Object",
                       "displayName": {
                         "en": "Object"
                       },
                       "fields": [
                         {
-                          "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:output_st_stream:schema:payload_specification:schema:z:schema:data_type;1",
+                          "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:output_st_stream:schema:payload_specification:schema:z:schema:data_type;2",
                           "displayName": {
                             "en": "Data Type"
                           },
@@ -1806,7 +1582,7 @@
                           "schema": "string"
                         },
                         {
-                          "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:output_st_stream:schema:payload_specification:schema:z:schema:dimensions;1",
+                          "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:output_st_stream:schema:payload_specification:schema:z:schema:dimensions;2",
                           "displayName": {
                             "en": "Dimensions"
                           },
@@ -1814,7 +1590,7 @@
                           "schema": "integer"
                         },
                         {
-                          "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:output_st_stream:schema:payload_specification:schema:z:schema:unit;1",
+                          "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:output_st_stream:schema:payload_specification:schema:z:schema:unit;2",
                           "displayName": {
                             "en": "Unit"
                           },
@@ -1822,7 +1598,7 @@
                           "schema": "string"
                         },
                         {
-                          "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:output_st_stream:schema:payload_specification:schema:z:schema:short_unit;1",
+                          "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:output_st_stream:schema:payload_specification:schema:z:schema:short_unit;2",
                           "displayName": {
                             "en": "Short Unit"
                           },
@@ -1830,7 +1606,7 @@
                           "schema": "string"
                         },
                         {
-                          "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:output_st_stream:schema:payload_specification:schema:z:schema:labels;1",
+                          "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:output_st_stream:schema:payload_specification:schema:z:schema:labels;2",
                           "displayName": {
                             "en": "Labels"
                           },
@@ -1857,11 +1633,11 @@
       "dtmi:iotcentral:context;2",
       "dtmi:dtdl:context;2"
     ],
-    "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_mlc;1",
+    "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_mlc;2",
     "@type": "Interface",
     "contents": [
       {
-        "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_mlc:enable;1",
+        "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_mlc:enable;2",
         "@type": [
           "Property",
           "BooleanValue"
@@ -1874,7 +1650,7 @@
         "writable": true
       },
       {
-        "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_mlc:model_filename;1",
+        "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_mlc:model_filename;2",
         "@type": [
           "Property",
           "StringValue"
@@ -1887,7 +1663,7 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_mlc:label_id;1",
+        "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_mlc:label_id;2",
         "@type": [
           "Telemetry",
           "State"
@@ -1900,11 +1676,11 @@
         },
         "name": "label_id",
         "schema": {
-          "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_mlc:label_id:schema;1",
+          "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_mlc:label_id:schema;2",
           "@type": "Enum",
           "enumValues": [
             {
-              "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_mlc:label_id:schema:stationary_upright;1",
+              "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_mlc:label_id:schema:stationary_upright;2",
               "displayName": {
                 "en": "Stationary Upright"
               },
@@ -1912,7 +1688,7 @@
               "name": "stationary_upright"
             },
             {
-              "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_mlc:label_id:schema:stationary_not_upright;1",
+              "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_mlc:label_id:schema:stationary_not_upright;2",
               "displayName": {
                 "en": "Stationary Not upright"
               },
@@ -1920,7 +1696,7 @@
               "name": "stationary_not_upright"
             },
             {
-              "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_mlc:label_id:schema:motion;1",
+              "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_mlc:label_id:schema:motion;2",
               "displayName": {
                 "en": "Motion"
               },
@@ -1928,7 +1704,7 @@
               "name": "motion"
             },
             {
-              "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_mlc:label_id:schema:shaken;1",
+              "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_mlc:label_id:schema:shaken;2",
               "displayName": {
                 "en": "Shaken"
               },
@@ -1940,7 +1716,7 @@
         }
       },
       {
-        "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_mlc:load_model;1",
+        "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_mlc:load_model;2",
         "@type": "Command",
         "commandType": "synchronous",
         "displayName": {
@@ -1994,11 +1770,11 @@
       "dtmi:iotcentral:context;2",
       "dtmi:dtdl:context;2"
     ],
-    "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:applications:log_controller;1",
+    "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:applications:log_controller;2",
     "@type": "Interface",
     "contents": [
       {
-        "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:applications:log_controller:save_configuration;1",
+        "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:applications:log_controller:save_configuration;2",
         "@type": "Command",
         "commandType": "synchronous",
         "displayName": {
@@ -2007,7 +1783,7 @@
         "name": "save_configuration"
       },
       {
-        "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:applications:log_controller:log_status;1",
+        "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:applications:log_controller:log_status;2",
         "@type": [
           "Property",
           "BooleanValue"
@@ -2020,7 +1796,7 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:applications:log_controller:start_log;1",
+        "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:applications:log_controller:start_log;2",
         "@type": "Command",
         "commandType": "synchronous",
         "displayName": {
@@ -2059,7 +1835,7 @@
         }
       },
       {
-        "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:applications:log_controller:stop_log;1",
+        "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:applications:log_controller:stop_log;2",
         "@type": "Command",
         "commandType": "synchronous",
         "displayName": {
@@ -2068,7 +1844,7 @@
         "name": "stop_log"
       },
       {
-        "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:applications:log_controller:set_time;1",
+        "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:applications:log_controller:set_time;2",
         "@type": "Command",
         "commandType": "synchronous",
         "displayName": {
@@ -2088,7 +1864,7 @@
         }
       },
       {
-        "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:applications:log_controller:controller_type;1",
+        "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:applications:log_controller:controller_type;2",
         "@type": [
           "Property",
           "NumberValue"
@@ -2101,7 +1877,7 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:applications:log_controller:switch_bank;1",
+        "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:applications:log_controller:switch_bank;2",
         "@type": "Command",
         "commandType": "synchronous",
         "displayName": {
@@ -2110,7 +1886,7 @@
         "name": "switch_bank"
       },
       {
-        "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:applications:log_controller:set_dfu_mode;1",
+        "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:applications:log_controller:set_dfu_mode;2",
         "@type": "Command",
         "commandType": "synchronous",
         "displayName": {
@@ -2119,7 +1895,7 @@
         "name": "set_dfu_mode"
       },
       {
-        "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:applications:log_controller:enable_all;1",
+        "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:applications:log_controller:enable_all;2",
         "@type": "Command",
         "commandType": "synchronous",
         "displayName": {
@@ -2145,11 +1921,11 @@
       "dtmi:iotcentral:context;2",
       "dtmi:dtdl:context;2"
     ],
-    "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:services:acquisition_information;1",
+    "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:services:acquisition_information;2",
     "@type": "Interface",
     "contents": [
       {
-        "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:services:acquisition_information:acquisition_name;1",
+        "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:services:acquisition_information:acquisition_name;2",
         "@type": [
           "Property",
           "StringValue"
@@ -2162,7 +1938,7 @@
         "writable": true
       },
       {
-        "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:services:acquisition_information:acquisition_description;1",
+        "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:services:acquisition_information:acquisition_description;2",
         "@type": [
           "Property",
           "StringValue"
@@ -2175,7 +1951,7 @@
         "writable": true
       },
       {
-        "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:services:acquisition_information:acquisition_uuid;1",
+        "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:services:acquisition_information:acquisition_uuid;2",
         "@type": [
           "Property",
           "StringValue"
@@ -2188,7 +1964,7 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:services:acquisition_information:start_time;1",
+        "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:services:acquisition_information:start_time;2",
         "@type": [
           "Property",
           "StringValue"
@@ -2201,7 +1977,7 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:services:acquisition_information:end_time;1",
+        "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:services:acquisition_information:end_time;2",
         "@type": [
           "Property",
           "StringValue"
@@ -2214,7 +1990,7 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:services:acquisition_information:exported_data_extension;1",
+        "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:services:acquisition_information:exported_data_extension;2",
         "@type": [
           "Property",
           "StringValue"
@@ -2227,7 +2003,7 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:services:acquisition_information:exported_data_format;1",
+        "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:services:acquisition_information:exported_data_format;2",
         "@type": [
           "Property",
           "StringValue"
@@ -2240,7 +2016,7 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:services:acquisition_information:tags;1",
+        "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:services:acquisition_information:tags;2",
         "@type": "Property",
         "comment": "JSON Value",
         "displayName": {
@@ -2251,21 +2027,21 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:services:acquisition_information:interface;1",
+        "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:services:acquisition_information:interface;2",
         "@type": "Property",
         "displayName": {
           "en": "Interface"
         },
         "name": "interface",
         "schema": {
-          "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:services:acquisition_information:interface:schema;1",
+          "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:services:acquisition_information:interface:schema;2",
           "@type": "Enum",
           "displayName": {
             "en": "Enum"
           },
           "enumValues": [
             {
-              "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:services:acquisition_information:interface:schema:sd;1",
+              "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:services:acquisition_information:interface:schema:sd;2",
               "displayName": {
                 "en": "SD Card"
               },
@@ -2273,7 +2049,7 @@
               "name": "sd"
             },
             {
-              "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:services:acquisition_information:interface:schema:usb;1",
+              "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:services:acquisition_information:interface:schema:usb;2",
               "displayName": {
                 "en": "USB"
               },
@@ -2281,7 +2057,7 @@
               "name": "usb"
             },
             {
-              "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:services:acquisition_information:interface:schema:ble;1",
+              "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:services:acquisition_information:interface:schema:ble;2",
               "displayName": {
                 "en": "BLE"
               },
@@ -2289,7 +2065,7 @@
               "name": "ble"
             },
             {
-              "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:services:acquisition_information:interface:schema:serial;1",
+              "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:services:acquisition_information:interface:schema:serial;2",
               "displayName": {
                 "en": "Serial"
               },
@@ -2302,7 +2078,7 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:services:acquisition_information:schema_version;1",
+        "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:services:acquisition_information:schema_version;2",
         "@type": [
           "Property",
           "StringValue"
@@ -2324,11 +2100,11 @@
       "dtmi:iotcentral:context;2",
       "dtmi:dtdl:context;2"
     ],
-    "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:services:device_information;1",
+    "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:services:device_information;2",
     "@type": "Interface",
     "contents": [
       {
-        "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:services:device_information:device_alias;1",
+        "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:services:device_information:device_alias;2",
         "@type": [
           "Property",
           "StringValue"
@@ -2344,7 +2120,7 @@
         "writable": true
       },
       {
-        "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:services:device_information:device_manufacturer;1",
+        "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:services:device_information:device_manufacturer;2",
         "@type": [
           "Property",
           "StringValue"
@@ -2360,7 +2136,7 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:services:device_information:device_name;1",
+        "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:services:device_information:device_name;2",
         "@type": [
           "Property",
           "StringValue"
@@ -2376,7 +2152,7 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:services:device_information:processor_manufacturer;1",
+        "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:services:device_information:processor_manufacturer;2",
         "@type": [
           "Property",
           "StringValue"
@@ -2392,7 +2168,7 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:services:device_information:processor_architecture;1",
+        "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:services:device_information:processor_architecture;2",
         "@type": [
           "Property",
           "StringValue"
@@ -2408,7 +2184,7 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:services:device_information:total_storage_megabytes;1",
+        "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:services:device_information:total_storage_megabytes;2",
         "@type": [
           "Property",
           "NumberValue"
@@ -2424,7 +2200,7 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:services:device_information:available_storage_megabytes;1",
+        "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:services:device_information:available_storage_megabytes;2",
         "@type": [
           "Property",
           "NumberValue"
@@ -2440,7 +2216,7 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:services:device_information:total_rom_memory_megabytes;1",
+        "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:services:device_information:total_rom_memory_megabytes;2",
         "@type": [
           "Property",
           "NumberValue"
@@ -2456,7 +2232,7 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:services:device_information:available_rom_memory_megabytes;1",
+        "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:services:device_information:available_rom_memory_megabytes;2",
         "@type": [
           "Property",
           "NumberValue"
@@ -2472,7 +2248,7 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:services:device_information:total_ram_memory_megabytes;1",
+        "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:services:device_information:total_ram_memory_megabytes;2",
         "@type": [
           "Property",
           "NumberValue"
@@ -2488,7 +2264,7 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:services:device_information:available_ram_memory_megabytes;1",
+        "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:services:device_information:available_ram_memory_megabytes;2",
         "@type": [
           "Property",
           "NumberValue"
@@ -2504,7 +2280,7 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:services:device_information:physical_address;1",
+        "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:services:device_information:physical_address;2",
         "@type": [
           "Property",
           "StringValue"
@@ -2520,7 +2296,7 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:services:device_information:device_url;1",
+        "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:services:device_information:device_url;2",
         "@type": [
           "Property",
           "StringValue"
@@ -2536,7 +2312,7 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:services:device_information:os_name;1",
+        "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:services:device_information:os_name;2",
         "@type": [
           "Property",
           "StringValue"
@@ -2552,7 +2328,7 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:services:device_information:os_version;1",
+        "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:services:device_information:os_version;2",
         "@type": [
           "Property",
           "StringValue"
@@ -2568,7 +2344,7 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:services:device_information:firmware_part_number;1",
+        "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:services:device_information:firmware_part_number;2",
         "@type": [
           "Property",
           "StringValue"
@@ -2584,7 +2360,7 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:services:device_information:firmware_name;1",
+        "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:services:device_information:firmware_name;2",
         "@type": [
           "Property",
           "StringValue"
@@ -2600,7 +2376,7 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:services:device_information:firmware_version;1",
+        "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:services:device_information:firmware_version;2",
         "@type": [
           "Property",
           "StringValue"
@@ -2616,7 +2392,7 @@
         "writable": false
       },
       {
-        "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:services:device_information:firmware_url;1",
+        "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:services:device_information:firmware_url;2",
         "@type": [
           "Property",
           "StringValue"

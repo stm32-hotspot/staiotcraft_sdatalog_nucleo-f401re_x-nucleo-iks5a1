@@ -178,7 +178,7 @@ uint8_t device_information_get_firmware_name(char **value)
 uint8_t device_information_get_firmware_version(char **value)
 {
   /* USER Code */
-  *value = "1.0.0";
+  *value = "1.0.1";
   return PNPL_NO_ERROR_CODE;
 }
 

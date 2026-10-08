@@ -1306,7 +1306,7 @@
               "displayName": {
                 "en": "250"
               },
-              "enumValue": 1,
+              "enumValue": 0,
               "name": "dps250"
             },
             {
@@ -1314,7 +1314,7 @@
               "displayName": {
                 "en": "500"
               },
-              "enumValue": 2,
+              "enumValue": 1,
               "name": "dps500"
             },
             {
@@ -1322,7 +1322,7 @@
               "displayName": {
                 "en": "1000"
               },
-              "enumValue": 3,
+              "enumValue": 2,
               "name": "dps1000"
             },
             {
@@ -1330,7 +1330,7 @@
               "displayName": {
                 "en": "2000"
               },
-              "enumValue": 4,
+              "enumValue": 3,
               "name": "dps2000"
             },
             {
@@ -1338,7 +1338,7 @@
               "displayName": {
                 "en": "4000"
               },
-              "enumValue": 5,
+              "enumValue": 4,
               "name": "dps4000"
             }
           ],
@@ -1349,7 +1349,7 @@
         "displayUnit": {
           "en": "dps"
         },
-        "initialValue": 5
+        "initialValue": 4
       },
       {
         "@id": "dtmi:appconfig:nucleo_stm32f401re:STAIOTCRAFT_SDATALOG:sensors:ism6hg256x_gyro:initial_timestamp;1",

@@ -60,11 +60,11 @@ typedef enum
 } pnpl_ism6hg256x_gyro_odr_t_t;
 typedef enum
 {
-  pnpl_ism6hg256x_gyro_fs_dps250 = 1,
-  pnpl_ism6hg256x_gyro_fs_dps500 = 2,
-  pnpl_ism6hg256x_gyro_fs_dps1000 = 3,
-  pnpl_ism6hg256x_gyro_fs_dps2000 = 4,
-  pnpl_ism6hg256x_gyro_fs_dps4000 = 5,
+  pnpl_ism6hg256x_gyro_fs_dps250 = 0,
+  pnpl_ism6hg256x_gyro_fs_dps500 = 1,
+  pnpl_ism6hg256x_gyro_fs_dps1000 = 2,
+  pnpl_ism6hg256x_gyro_fs_dps2000 = 3,
+  pnpl_ism6hg256x_gyro_fs_dps4000 = 4,
 } pnpl_ism6hg256x_gyro_fs_t;
 typedef enum
 {
